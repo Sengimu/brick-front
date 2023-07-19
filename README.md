@@ -1,5 +1,5 @@
-# brick-front
+# Brick-front
 
-此为brick的前台，详情及使用请前往brick-end浏览
+此为brick的前台源码，仅提供进阶使用
 
-此库仅作自构建前台源码提供
+相关内容请前往 [Brick](https://github.com/Sengimu/brick-back) 查看
