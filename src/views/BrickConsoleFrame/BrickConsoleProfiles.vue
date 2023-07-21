@@ -66,7 +66,7 @@
             <el-upload
                 class="upload-demo"
                 ref="upload"
-                action="http://localhost/web/profile/uploadTexture"
+                action="/web/profile/uploadTexture"
                 :with-credentials="true"
                 :data="uploadObj"
                 :limit="1"

@@ -23,21 +23,21 @@ export default {
         }
     },
     created() {
-        this.initScreenSize();
+        this.initScreenSize()
     },
     methods: {
         initScreenSize() {
-            this.carouselHeight = this.getCarouselHeight();
+            this.carouselHeight = this.getCarouselHeight()
             window.onresize = () => {
-                this.carouselHeight = this.getCarouselHeight();
+                this.carouselHeight = this.getCarouselHeight()
             }
         },
         getCarouselHeight() {
-            let carouselHeight = window.innerWidth * 822 / 1920;
+            let carouselHeight = window.innerWidth * 822 / 1920
             if (carouselHeight > 822) {
-                carouselHeight = 822;
+                carouselHeight = 822
             }
-            return carouselHeight;
+            return carouselHeight
         }
     }
 }
